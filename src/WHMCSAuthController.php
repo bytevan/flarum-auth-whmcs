@@ -13,8 +13,8 @@ namespace Flarum\Auth\WHMCS;
 use Flarum\Forum\AuthenticationResponseFactory;
 use Flarum\Forum\Controller\AbstractOAuth2Controller;
 use Flarum\Settings\SettingsRepositoryInterface;
-use League\OAuth2\Client\Provider\WHMCS;
-use League\OAuth2\Client\Provider\ResourceOwnerInterface;
+use Londry\OAuth2\Client\Provider\WHMCS;
+use Londry\OAuth2\Client\Provider\ResourceOwnerInterface;
 
 class WHMCSAuthController extends AbstractOAuth2Controller
 {
